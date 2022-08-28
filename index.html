@@ -5,183 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
 
-    <style>
-        #main{
-            border: 0px solid teal;
-            width: 90%;
-            margin: auto;
-            height: auto;
-        }
-        #image{
-            width: 50%;
-            border: 0px solid red;
-            margin: auto;
-            text-align: center;
-        }
-        #image>img{
-            width: 50%
-            
-
-        }
-        #hr1{
-            margin-top: -5px;
-            height: 2px;
-            background-color: black;
-        }
-        #option{
-            margin-top: 10px;
-            width: 100%;
-            height: 50px;
-            border: 0px solid black;
-            text-align: center;
-            
-        }
-        #option>a{
-
-            padding: 10px;
-            text-decoration: none;
-            color: black;
-            font-size: 20px;
-        }
-        #option>a:hover{
-            background-color: rgb(241, 238, 238);
-        }
-        #hr2{
-            margin-top: -17px;
-        }
-        #ad{
-            height: 100px;
-            width: 70%;
-            margin: auto;
-            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-            margin-bottom: 10px;
-        }
-        #test{
-            display: flex;
-            
-        }
-
-        #topStories{
-            border: 1px solid blue;
-            height: auto;
-            display: grid;
-            gap: 2%;
-            grid-template-columns: 35% 30% 30%;
-
-        }
-
-        #top>div{
-            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-            border-radius: 5px;
-          
-        }
-        #top>h3{
-            margin-bottom: -20px;
-            margin-left: 10px;
-            
-        }
-        .topImage{
-            width: 100%;
-            margin-bottom: -20px;
-            border-radius: 5px;
-        }
-
-        #div2>div{
-            border: 0px solid teal;
-            display: flex;
-            margin-bottom: 0px;
-
-        }
-        #div2>div>img{
-            margin-right: 10px;
-            width: 35%;
-            height: 10%;
-        }
-        #most{
-            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-            background-color: rgb(249, 246, 246);
-        }
-        #most>div{
-            display: flex;
-            margin: 10px;
-        }
-        #most>div>img{
-            margin-right: 10px;
-            width: 35%;
-            height: 10%;
-        }
-        #most>div>h4{
-            margin-left: 10px;
-            margin-right: 10px;
-            margin-top: 0px;
-        }
-        #most>hr{
-            margin-top: -20px;
-        }
-        #mostad{
-            height: 300px;
-            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-            margin-bottom: 10px;
-
-        }
-        #columns>div{
-            display: flex;
-            margin: 10px;
-            
-
-        }
-        #columns>div>img{
-            margin-top: 0px;
-            width: 25%;
-            border-radius: 50%;
-
-  
-
-        }
-        #columns>div>h4{
-            margin-left: 10px;
-            margin-right: 10px;
-            margin-top: 0px;
-        }
-        #columns>div>h3>hr{
-            height: 2px;
-            background-color: red;
-            margin-bottom: -20px;
-        }
-
-        #test>h3>hr{
-            margin-bottom: -10px;
-            height: 2px;
-            background-color: red;
-        }
-        #test>h3:nth-child(2){
-            margin-left: 58%;
-        }
+    
 
 
 
-
-            
-        
-
-        
-
-
-
-
-
-    </style>
 </head>
 <body>
+     <!--main is the entire body div-->
     <div id="main">
 
+        <!--image div is for deccan cronicle logo and below that time and date-->
         <div id="image">
             <img src="https://www.deccanchronicle.com/images/DeccanChronicle_Logo.jpg" alt="">
             <p>Wednesday, Aug 24, 2022 | Last Update : 12:39 PM IST</p>
+        
         </div>
+
+        <!--this is a horizontal line-->
         <hr id="hr1">
 
+        <!--option div is nav bar which contain entire option. -->
         <div id="option">
             <a href="">Home</a>
             <a href="">Nation</a>
@@ -196,16 +41,23 @@
             <a id="more" href="">More...</a>    
         </div>
 
+        <!--this is another horizontal line after the navbar.-->
         <hr id="hr2">
 
-        <div id="ad"> Ad will Display here</div>
+        <!--below the navbar there is a option to display ad.-->
+        <div class="ad"> Ad will Display here</div>
 
+        <!--test div is for heading topstories and popular section.-->
         <div id="test">
-            <h3>TOP STORIES <hr> </h3>
+            <h3>TOP STORIES  <hr></h3>
+            
             <h3>MOST POPULAR <hr> </h3>
         </div>
 
-        <div id="topStories">     
+        <!--Entire main div is now divided in three column(top,div2&mostM)-->
+        <div id="topStories">
+        
+            <!--top div contain main 3 div to display images and description.     -->
             <div id="top">
                 
                 <div>
@@ -236,7 +88,9 @@
                 </div>
             </div>
 
+            <!--div2 contain 12 div which contain images in left and decription in right-->
             <div id="div2">
+            
                 <div>
                     <img src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-besd8bq2veesvv0ria28ku3gd3-20220824101701.jpeg" alt="">
                     <p>CBI raids RJD MLA over land for railways jobs case on day of Nitish floor test</p>                   
@@ -309,9 +163,9 @@
                 </div>
                 <hr>
             </div>
-
+            <!--to display most popular section,ad and columns section-->
             <div id="mostM">
-                <div >
+
                     <div id="most">
                         <div>
                             <h4>CBI raids RJD MLA over land for railways jobs case on day of Nitish floor test</h4>
@@ -363,11 +217,10 @@
                         <hr>
         
                     </div>
-                </div>
+    
+                    <div id="mostad">Ad will Display here</div>
 
-                <div id="mostad">Ad will Display here</div>
-
-                <div id="columns">
+                    <div id="columns">
                     <div><h3>COLUMNS <hr></h3></div>
                     <hr>
 
@@ -390,12 +243,53 @@
                     </div>
                     <hr>
 
-                </div>
+                    </div>
+
+            </div>
+
+
+        </div>
+        <div class="ad"> Ad will Display here</div>
+        <hr>
+
+        <div id="cartoon">
+            <h3>CARTOON OF THE DAY <hr> </h3>
+            <h3>COUNTER POINT<hr> </h3>
+            
+        </div>
+        <hr>
+        <div id="cartoonimg">
+            <img src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/0b489b95567db59a3a19d7c57f4a2a5b12964201-tc-img-web.jpg" alt="">
+
+            <img src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/6c9832459871ee10ff740051ef887253193fdaf7-tc-img-web.jpg" alt="">
+
+            <div class=""> ad will display here
+
             </div>
         </div>
         <hr><hr>
 
-    </div>
-    
+        <!--south page-->
+        <div id="south">
+            <div class="header">SOUTH</div>
+            <div class="header">
+                <H4></H4>
+                <H4></H4>
+                <H4></H4>
+                <H4></H4>
+                <H4></H4>
+            </div>
+        </div>
+
+    </div>    
 </body>
+
+
+<script src="./index.js"> </script>
 </html>
+
+
+
+
+
+
