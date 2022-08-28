@@ -1,0 +1,175 @@
+#main{
+    border: 0px solid teal;
+    width: 90%;
+    margin: auto;
+    height: auto;
+}
+#image{
+    width: 50%;
+    border: 0px solid red;
+    margin: auto;
+    text-align: center;
+}
+#image>img{
+    width: 50%
+    
+
+}
+#hr1{
+    margin-top: -5px;
+    height: 2px;
+    background-color: black;
+}
+#option{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border: 0px solid black;
+    text-align: center;
+    
+}
+#option>a{
+
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#option>a:hover{
+    background-color: rgb(241, 238, 238);
+}
+
+#hr2{
+    margin-top: -17px;
+}
+.ad{
+    height: 100px;
+    width: 70%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-bottom: 10px;
+}
+#test{
+    display: flex;
+    
+}
+#test>h3>hr{
+    margin-bottom: -10px;
+    height: 2px;
+    background-color: red;
+}
+#test>h3:nth-child(2){
+    margin-left: 58%;
+}
+
+#topStories{
+    border: 0px solid blue;
+    height: auto;
+    display: grid;
+    gap: 2%;
+    grid-template-columns: 35% 30% 30%;
+
+}
+
+#top>div{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 5px;
+  
+}
+#top>h3{
+    margin-bottom: -20px;
+    margin-left: 10px;
+    
+}
+.topImage{
+    width: 100%;
+    margin-bottom: -20px;
+    border-radius: 5px;
+}
+
+#div2>div{
+    border: 0px solid teal;
+    display: flex;
+    margin-bottom: 0px;
+
+}
+#div2>div>img{
+    margin-right: 10px;
+    width: 35%;
+    height: 10%;
+}
+#most{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    background-color: rgb(249, 246, 246);
+}
+#most>div{
+    display: flex;
+    margin: 10px;
+}
+#most>div>img{
+    margin-right: 10px;
+    width: 35%;
+    height: 10%;
+}
+#most>div>h4{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+#most>hr{
+    margin-top: -20px;
+}
+#mostad{
+    height: 300px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-bottom: 10px;
+
+}
+#columns>div{
+    display: flex;
+    margin: 10px;
+    
+
+}
+#columns>div>img{
+    margin-top: 0px;
+    width: 25%;
+    border-radius: 50%;
+
+
+
+}
+#columns>div>h4{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+#columns>div>h3>hr{
+    height: 2px;
+    background-color: red;
+    margin-bottom: -20px;
+}
+#cartoon{
+    display: flex;
+    margin-bottom: -30px;
+}
+#cartoon>h3>hr{
+    height: 2px;
+    background-color: red;
+}
+#cartoon>h3:nth-child(2){
+    margin-left: 240px;
+}
+#cartoonimg{
+    display: flex;
+}
+#cartoonimg>img:nth-child(1){
+    height: 50%;
+    width: 40%;
+}
+#cartoonimg>img:nth-child(2){
+    height: 10%;
+    width: 18%;
+}
+
+
