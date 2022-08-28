@@ -1,0 +1,21 @@
+.techHeader{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+}
+.tech{
+    border: 0px solid red;
+    display: flex;
+    margin-bottom: 30px;
+    
+}
+.tech>div{
+    width: 22%;
+}
+.tech>div>img{
+    width: 90%;
+}
+.tech>#ad{
+    border: 1px solid black;
+    padding-left: 100px;
+}

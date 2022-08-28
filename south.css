@@ -1,0 +1,23 @@
+.south>#mid{
+    display: flex;
+
+}
+
+.south>#mid>div>img{
+    width: 90%;    
+}
+.south>#bottom{
+    display: flex;
+}
+.south>#bottom>div{
+    display: flex;
+}
+.south>#bottom>div>img{
+    margin-right: 10px;
+    width: 30%;
+    height: 60%;
+}
+.south>#bottom>div>h4{
+    margin-top: 0px;
+    margin-right: 10px;
+}

@@ -1,0 +1,33 @@
+#Entertainment{
+    background-color: rgb(233, 231, 231);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#Entertainment>#header>#left>h3{
+    margin-left: 30px;
+}
+#Entertainment>#mid{
+    display: flex;
+    margin-left: 20px;
+
+}
+
+#Entertainment>#mid>div>img{
+    width: 90%;    
+}
+#Entertainment>#bottom{
+    margin-top: 50px;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#Entertainment>#bottom>div{
+    display: flex;
+}
+#Entertainment>#bottom>div>img{
+    margin-right: 10px;
+    width: 50%;
+    height: 60%;
+}
+#Entertainment>#bottom>div>h4{
+    margin-top: 0px;
+}

@@ -1,0 +1,21 @@
+#jeheader{
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-thickness: 3px;
+    
+}
+#jobse{
+    display: flex;
+    margin: 30px  30px;
+}
+#jobse>div{
+    display: flex;
+}
+#jobse>div>img{
+    margin-right: 10px;
+    width: 30%;
+    height: 60%;
+}
+#jobse>div>h4{
+    margin-top: 0px;
+}
